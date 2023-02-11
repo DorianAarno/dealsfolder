@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url('assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+}
+#logo {
+    height: 82px;
+    width: 82px;
+    margin-left: 30px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#deals, #folder{
+    font-family: 'Jura', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    bottom: 25px;
+}
+
+#deals{
+    color: #50216e;
+}
+#folder{
+    color: #FFDA0A;
+}
+
+#navlinks{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.navlink{
+    color: rgba(29, 27, 27, 0.904);
+    font-family: 'Jura', sans-serif;
+    margin: 25px 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.navlink:hover{
+    transition-duration: 0.5s;
+    color: #FFDA0A;
+    cursor: pointer;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+}
+#hero-heading{
+    margin: 20vh 25vw 10px 25vw;
+    font-size: 50px;
+    text-align: center;
+    color: #FFDA0A;
+    font-family: 'Jura', sans-serif;
+}
+#hero-para{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    margin: 15px 35vw;
+    font-size: 18px;
+    color: #FFEC84;
+    line-height: 4.2vh;
+    font-weight: bold;
+}
+
+.button{
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Jura', sans-serif;
+}
+#take-a-tour{
+    background-color: #50216E96;
+    color: #FFEC84;
+    align-self: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#take-a-tour:hover{
+    transition-duration: 0.7s;
+    background-color: #50216e;
+    color: #FFDA0A;
+    cursor: pointer;
+}
+
+#exclusive_deals{
+    /* position: relative; */
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    background-image: url('assets/exclusive_deals.png');
+}
+#exclusive_deals_info{
+    position: relative;
+    left: 40vw;
+    bottom: 35vh;
+    display: inline-block;
+    width: 900px;
+    height: 393px;
+    background-color: white;
+}
+
+#heading_exclusive{
+    font-family: 'Jura', sans-serif;
+    color: #FFDA0A;
+    font-size: 50px;
+    text-align: left;
+    margin: 4rem 13rem 0 13rem;
+}
+#para_exclusive{
+    font-family: 'Jura', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin: 2rem 13rem 0 13rem;
+    color: #333333;
+    line-height: 2.5rem;
+}
+
+#deals-container{
+    display: flex;
+    margin: 0 5rem;
+    position: relative;
+    bottom: 190px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.deal-block{
+    background-color: white;
+    border: black solid 1px;
+    box-shadow: 10px 10px 8px 10px #888888;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 4rem;
+    /* margin-left: 80px; */
+}
+.deals-img{
+    width: 350px;
+    height: 350px;
+}
+.deals-heading{
+    font-family: 'Jura', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 8px;
+}

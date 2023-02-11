@@ -1,0 +1,14 @@
+#hero-heading{
+    margin: 20vh 10vw 5px 10vw;
+}
+#hero-para{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    margin: 15px 20vw;
+    font-size: 18px;
+    color: #FFEC84;
+    line-height: 45px;
+}
+#deals, #folder{
+    display: none;
+}
