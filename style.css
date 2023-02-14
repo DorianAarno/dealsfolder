@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+
 
 * {
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden; 
 }
 
 header {
@@ -21,6 +24,7 @@ header {
 #navbar{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 
@@ -62,7 +66,7 @@ header {
     flex-direction: column;
 }
 #hero-heading{
-    margin: 20vh 25vw 10px 25vw;
+    margin: 20vh 15px 10px 15px;
     font-size: 50px;
     text-align: center;
     color: #FFDA0A;
@@ -71,7 +75,7 @@ header {
 #hero-para{
     text-align: center;
     font-family: 'Jura', sans-serif;
-    margin: 15px 35vw;
+    margin: 15px;
     font-size: 18px;
     color: #FFEC84;
     line-height: 4.2vh;
@@ -98,22 +102,23 @@ header {
 }
 
 #exclusive_deals{
-    /* position: relative; */
     display: inline-block;
     width: 1000px;
     height: 300px;
     margin-left: 4vw;
     margin-top: 5vh;
     background-image: url('assets/exclusive_deals.png');
+    /* box-shadow: 10px 10px 8px 10px #888888; */
 }
 #exclusive_deals_info{
     position: relative;
     left: 40vw;
     bottom: 35vh;
     display: inline-block;
-    width: 900px;
+    width: 55vw;
     height: 393px;
     background-color: white;
+    box-shadow: 10px 10px 8px 10px #888888;
 }
 
 #heading_exclusive{
@@ -121,23 +126,21 @@ header {
     color: #FFDA0A;
     font-size: 50px;
     text-align: left;
-    margin: 4rem 13rem 0 13rem;
+    margin: 4rem 30px 0 10vw;
 }
 #para_exclusive{
     font-family: 'Jura', sans-serif;
     font-size: 24px;
     text-align: left;
-    margin: 2rem 13rem 0 13rem;
+    margin: 2rem 30px 0 10vw;
     color: #333333;
     line-height: 2.5rem;
 }
 
 #deals-container{
     display: flex;
-    margin: 0 5rem;
-    position: relative;
-    bottom: 190px;
-    justify-content: space-between;
+    margin: -190px 5rem 0 5rem;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .deal-block{
@@ -146,8 +149,8 @@ header {
     box-shadow: 10px 10px 8px 10px #888888;
     text-align: center;
     padding: 25px;
-    margin-bottom: 4rem;
-    /* margin-left: 80px; */
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
 }
 .deals-img{
     width: 350px;
@@ -158,4 +161,43 @@ header {
     font-weight: lighter;
     font-size: 25px;
     margin-bottom: 8px;
+}
+
+#store-heading{
+    font-family: 'Jura', sans-serif;
+    font-weight: bolder;
+    font-size: 56px;
+    color: #FFDA0A;
+    text-align: center;
+}
+#store-para{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.store-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15vw 0 15vw;
+}
+.store-block{
+    margin: 20px 0;
+    flex-basis: 33.333333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-heading{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: lighter;
+    text-align: center;
 }
