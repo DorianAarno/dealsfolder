@@ -1,0 +1,11 @@
+
+#stats-block{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#stats{
+    margin-top: 30px;
+}
+.stat{
+    align-items: center;    
+}
