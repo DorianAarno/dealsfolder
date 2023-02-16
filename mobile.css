@@ -60,11 +60,19 @@
     height: 100%; */
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 550px;
+    width: 550px;
 }
 #stats{
     justify-content: space-between;
 }
 .stat{
     flex-basis: 50%;
+}
+#footer-nav{
+    display: flex;
+}
+.footer-nav-item{
+    width: 70%;
 }

@@ -1,4 +1,6 @@
-
+#stats-img-block{
+    background-size: contain;
+}
 #stats-block{
     flex-wrap: wrap;
     justify-content: center;
