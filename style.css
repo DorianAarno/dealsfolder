@@ -8,6 +8,10 @@
     /* overflow-x: hidden;  */
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
     background-image: url('assets/hero.png');
     background-size: cover;
@@ -44,18 +48,21 @@ header {
 }
 
 #navlinks{
-    display: inline-flex;
+    display: flex;
     list-style: none;
     margin-top: 10px;
+    flex-basis: 35%;
+    justify-content: space-around;
 }
 .navlink{
-    color: rgba(29, 27, 27, 0.904);
     font-family: 'Jura', sans-serif;
-    margin: 25px 50px;
-    margin-right: 50px;
+    margin: 25px 0;
     font-size: 20px;
 }
-.navlink:hover{
+.navLink a{
+    color: rgba(29, 27, 27, 0.904);
+}
+.navlink a:hover{
     transition-duration: 0.5s;
     color: #FFDA0A;
     cursor: pointer;
@@ -89,7 +96,7 @@ header {
 }
 #take-a-tour{
     background-color: #50216E96;
-    color: #FFEC84;
+    color: #FFEC84 !important;
     align-self: center;
     font-size: 18px;
     font-weight: bold;
