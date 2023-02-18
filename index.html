@@ -7,30 +7,43 @@
    <link rel="stylesheet" href="style.css">
    <link href="mobile.css" media="(max-width: 1000px)" rel="stylesheet" type="text/css" />
    <link href="stat.css" media="(max-width: 1500px)" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="">
 </head>
 
 <body>
 
    <header>
-      <div id="navbar">
+      <nav id="navbar">
          <div id="brand">
             <img id="logo" src="assets/logo.png" alt="DealsFolder">
             <span id="deals">DEALS</span>
             <span id="folder">FOLDER</span>
          </div>
-         <ul id="navlinks">
-            <li class="navlink"><a href="https://dealsfolder.com/">Home</a></li>
-            <li class="navlink"><a href="https://discord.gg/DpyAAnEYKa" class="navlink" target="_blank">Discord</a></li>
-            <li class="navlink"><a href="https://t.me/deals_folder" class="navlink" target="_blank">Telegram</a></li>
-         </ul>
 
-      </div>
+         <ul class="nav-menu">
+            <li class="nav-item">
+               <a href="https://dealsfolder.com/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+               <a href="https://discord.gg/DpyAAnEYKa" class="nav-link" target="_blank">Discord</a>
+            </li>
+            <li class="nav-item">
+               <a href="https://t.me/deals_folder" class="nav-link" target="_blank">Telegram</a>
+            </li>
+         </ul>
+         <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+
+      </nav>
 
       <div id="hero">
          <h1 id="hero-heading">
             Shop smarter, not harder - <br class="breakpoints">Find the best deals from the <br class="breakpoints">comfort of your home!
          </h1>
-         <p id="hero-para">
+         <p id="hero-para" class="drop-in">
             From groceries to electronics, fashion to home <br class="breakpoints">goods. We are bringing you the best deals in one <br class="breakpoints">convenient
             location. Don't miss out on your chance <br class="breakpoints">to save big and shop smart.
          </p>
@@ -195,6 +208,8 @@
          
       </div>
    </footer>
+
+   <script src="main.js"></script>
 </body>
 
 </html>
