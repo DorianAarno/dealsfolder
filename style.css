@@ -5,7 +5,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
 }
 
 a{
@@ -242,7 +242,7 @@ li {
     color: #595959;
     text-align: center;
     margin: 25px 0;
-    width: 100%;
+    width: auto;
 }
 
 .store-container{
