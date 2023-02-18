@@ -20,9 +20,9 @@ header {
     padding-bottom: 120px;
 }
 #logo {
-    height: 82px;
-    width: 82px;
-    margin-left: 30px;
+    height: 55px;
+    width: 55px;
+    margin-left: 2px;
 }
 
 #nav-menu{
@@ -34,10 +34,10 @@ header {
 
 #deals, #folder{
     font-family: 'Jura', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
     position: relative;
-    bottom: 25px;
+    bottom: 18px;
 }
 
 #deals{
@@ -66,7 +66,7 @@ li {
 .nav-item{
     font-family: 'Jura', sans-serif;
     margin: 25px 0;
-    font-size: 20px;
+    font-size: 17px;
 }
 .nav-link{
     color: rgba(29, 27, 27, 0.904);
@@ -105,7 +105,7 @@ li {
 }
 #hero-heading{
     margin: 20vh 15px 10px 15px;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     color: #FFDA0A;
     font-family: 'Jura', sans-serif;
@@ -127,7 +127,7 @@ li {
     text-align: center;
     font-family: 'Jura', sans-serif;
     margin: 15px;
-    font-size: 18px;
+    font-size: 13px;
     color: #FFEC84;
     line-height: 4.2vh;
     font-weight: bold;
@@ -143,7 +143,7 @@ li {
     background-color: #50216E96;
     color: #FFEC84 !important;
     align-self: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 #take-a-tour:hover{
@@ -169,7 +169,7 @@ li {
     bottom: 35vh;
     display: inline-block;
     width: 55vw;
-    height: 393px;
+    height: 290px;
     background-color: white;
     box-shadow: 10px 10px 8px 10px #888888;
 }
@@ -177,31 +177,33 @@ li {
 #heading_exclusive{
     font-family: 'Jura', sans-serif;
     color: #FFDA0A;
-    font-size: 50px;
+    font-size: 35px;
     text-align: left;
-    margin: 4rem 30px 0 10vw;
+    margin: 3rem 30px 0 10vw;
 }
 #para_exclusive{
     font-family: 'Jura', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
-    margin: 2rem 30px 0 10vw;
+    margin: 1rem 30px 0 10vw;
     color: #595959;
     line-height: 2.5rem;
 }
 
 #deals-container{
     display: flex;
-    margin: -190px 5rem 0 5rem;
+    margin: -170px 5rem 0 5rem;
+    padding: 15px;
     justify-content: center;
     flex-wrap: wrap;
 }
 .deal-block{
+
     background-color: white;
     border: black solid 1px;
     box-shadow: 10px 10px 8px 10px #888888;
     text-align: center;
-    padding: 25px;
+    padding: 15px;
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
 
@@ -211,34 +213,34 @@ li {
     -webkit-transition-duration: 0.3s;
 }
 .deal-block:hover{
-    transform: scale(1.1); 
+    transform: scale(1.05); 
     transition-duration: 0.3s;
-    -webkit-transform: scale(1.1);
+    -webkit-transform: scale(1.05);
     -webkit-transition-duration: 0.3s;
 }
 
 .deals-img{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
 }
 .deals-heading{
     font-family: 'Jura', sans-serif;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 8px;
 }
 
 #store-heading{
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
-    font-size: 56px;
+    font-size: 40px;
     color: #FFDA0A;
     text-align: center;
 }
 #store-para{
     font-family: 'Kodchasan', sans-serif;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 14px;
     color: #595959;
     text-align: center;
     margin: 25px 0;
@@ -275,10 +277,9 @@ li {
 }
 #stats-img-block{
     display: inline-block;
-    width: 948px;
-    height: 760px;
+    width: 500px;
+    height: 400px;
     background-image: url('assets/stats.png');
-    
 }
 
 #stats{
@@ -298,7 +299,7 @@ li {
 }
 .stat-number{
     font-weight: 90;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Kodchasan', sans-serif;
 }
 .stat-hr{
@@ -325,7 +326,7 @@ footer{
     align-items: center;
 }
 #footer-left{
-    display: inline-flex;
+    display: flex;
     flex-basis: 50%;
     justify-content: center;
     align-items: center;
@@ -335,14 +336,14 @@ footer{
     color: #50216e;
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 15px;
 }
 #touch{
     color: #FFDA0A;
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
-    font-size: 55px;
+    font-size: 40px;
 }
 #footer-right{
     display: flex;
@@ -357,8 +358,8 @@ footer{
     list-style: none;
 }
 .social-img{
-    width: 94px;
-    height: 94px;
+    width: 70px;
+    height: 70px;
     margin: 10px;
 }
 .social-img:hover{
@@ -369,8 +370,8 @@ footer{
     color: #e8e8e8;
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
-    font-size: 23px;
-    margin-left: 15px;
+    font-size: 15px;
+    text-align: center;
 }
 #footer-nav{
     display: inline-flex;
@@ -379,7 +380,12 @@ footer{
 }
 .footer-nav-item{
     list-style: none;
-    margin: 15px;
+    margin-top: 13px;
+    margin-left: 15px;
     font-family: 'Jura', sans-serif;
     font-size: 16px;
+}
+.footer-nav-text:hover{
+    color: #FFDA0A !important;
+    transition-duration: 0.3s;
 }
