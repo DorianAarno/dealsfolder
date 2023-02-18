@@ -192,7 +192,7 @@ li {
 
 #deals-container{
     display: flex;
-    margin: -170px 5rem 0 5rem;
+    margin: -170px 2rem 0 2rem;
     padding: 15px;
     justify-content: center;
     flex-wrap: wrap;
