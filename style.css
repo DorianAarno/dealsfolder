@@ -129,7 +129,7 @@ li {
     margin: 15px;
     font-size: 13px;
     color: #FFEC84;
-    line-height: 4.2vh;
+    line-height: 23px;
     font-weight: bold;
     animation: drop-in 1s ease 200ms backwards;
 }
@@ -192,13 +192,13 @@ li {
 
 #deals-container{
     display: flex;
-    margin: -170px 2rem 0 2rem;
+    margin: -170px auto 0 auto;
     padding: 15px;
     justify-content: center;
     flex-wrap: wrap;
+    width: fit-content;
 }
 .deal-block{
-
     background-color: white;
     border: black solid 1px;
     box-shadow: 10px 10px 8px 10px #888888;

@@ -52,6 +52,7 @@
     width: 100%;
     margin-left: 0;
     background-repeat: no-repeat;
+    /* background-position: 8% 50%; */
 }
 #exclusive_deals_info{
     position: static;
@@ -72,8 +73,11 @@
     margin: 2rem 30px 2rem 30px;
 }
 #deals-container{
-    margin: 20px 5rem 0 5rem;
+    margin: 20px auto 0 auto;
     justify-content: center;
+}
+.deal-block{
+    margin-left: 0;
 }
 #store-para{
     margin-left: 0;
