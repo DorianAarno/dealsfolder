@@ -88,6 +88,7 @@
 }
 .store-block{
     padding: 10px;
+    flex-basis: 100%;
 }
 
 #stats-img-block{
@@ -108,6 +109,9 @@
 .stat{
     flex-basis: 50%;
     align-items: center;
+    justify-content: space-around;
+    /* margin-right: 4px; */
+    /* padding-right: 4px; */
 }
 #footer-nav{
     display: flex;
