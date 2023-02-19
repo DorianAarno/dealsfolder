@@ -155,7 +155,7 @@ li {
 }
 
 #exclusive_deals{
-    display: inline-block;
+    /* display: inline-block; */
     width: 1000px;
     height: 300px;
     margin-left: 4vw;
@@ -166,10 +166,12 @@ li {
 
 #exclusive_deals_info{
     position: relative;
-    left: 40vw;
-    bottom: 35vh;
-    display: inline-block;
-    width: 55vw;
+    /* left: 50%; */
+    /* float: right; */
+    margin-left: 45%;
+    bottom: 200px;
+    display: block;
+    width: 54%;
     height: 290px;
     background-color: white;
     box-shadow: 10px 10px 8px 10px #888888;
@@ -207,6 +209,7 @@ li {
     padding: 15px;
     margin-bottom: 1.5rem;
     margin-left: 2.5rem;
+    flex-basis: 23.333333%;
 
     transform: scale(1); 
     transition-duration: 0.3s;

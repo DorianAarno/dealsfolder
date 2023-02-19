@@ -78,6 +78,7 @@
 }
 .deal-block{
     margin-left: 0;
+    flex-basis: 70%;
 }
 #store-para{
     margin-left: 0;
