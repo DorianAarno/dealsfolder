@@ -239,8 +239,10 @@ li {
     width: 250px;
     height: 250px;
     position: absolute;
-    left: 10%;
-    padding: 5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
