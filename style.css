@@ -156,12 +156,22 @@ li {
 
 #exclusive_deals{
     /* display: inline-block; */
-    width: 1000px;
-    height: 300px;
+    width: 60%;
+    /* height: 300px; */
     margin-left: 4vw;
     margin-top: 5vh;
-    background-image: url('assets/exclusive_deals.png');
+    height: 300px;
+    overflow: hidden;
+    padding-bottom: 0;
+
+    /* background-image: url('assets/exclusive_deals.png'); */
     /* box-shadow: 10px 10px 8px 10px #888888; */
+    background-color: #e7cdb6;
+}
+
+#exclusive_deals img{
+    padding-left: 10%;
+    object-fit: cover;
 }
 
 #exclusive_deals_info{
@@ -213,6 +223,11 @@ li {
     transition-duration: 0.3s;
     -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
+}
+@media (max-width: 1150px) {
+    .deal-block{
+        flex-basis: 40%;
+    }
 }
 .deal-block:hover{
     transform: scale(1.05); 
