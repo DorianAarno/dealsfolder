@@ -79,7 +79,11 @@
 }
 .deal-block{
     margin-left: 0;
-    flex-basis: 70%;
+    flex-basis: 100%;
+    width: fit-content;
+}
+.deals-img{
+    padding: 0;
 }
 #store-para{
     margin-left: 0;
