@@ -218,6 +218,7 @@ li {
     margin-bottom: 1.5rem;
     margin-left: 2.5rem;
     flex-basis: 23.333333%;
+    border-radius: 20px;
 
     transform: scale(1); 
     transition-duration: 0.3s;
@@ -229,17 +230,41 @@ li {
         flex-basis: 40%;
     }
 }
+.deals-img{
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.deals-img-hover{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 10%;
+    padding: 5px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
 .deal-block:hover{
     transform: scale(1.05); 
     transition-duration: 0.3s;
     -webkit-transform: scale(1.05);
     -webkit-transition-duration: 0.3s;
 }
-
-.deals-img{
-    width: 250px;
-    height: 250px;
+.deal-block:hover .deals-img{
+    opacity: 0.1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
+.deal-block:hover .deals-img-hover{
+    opacity: 1;
+}
+
 .deals-heading{
     font-family: 'Jura', sans-serif;
     font-weight: lighter;
